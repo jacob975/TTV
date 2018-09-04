@@ -1,0 +1,94 @@
+# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
+# Sun Sep  2 23:50:36 2018
+#
+# COLUMN username:       Input Target
+# COLUMN defaultname:    Archive Planet Name
+# COLUMN sourcetable:    Data Source
+# COLUMN planetname:     Data Source Planet Name
+# COLUMN ra_str:         RA [sexagesimal]
+# COLUMN ra:             RA [decimal degrees]
+# COLUMN dec_str:        Dec [sexagesimal]
+# COLUMN dec:            Dec [decimal degrees]
+# COLUMN obsname:        Observatory Name
+# COLUMN obslat:         Observatory Latitude [degrees north]
+# COLUMN obslon:         Observatory Longitude [degrees east]
+# COLUMN reflink:        Reference
+# COLUMN algorithm:      Algorithm
+# COLUMN isdefault:      Default Parameters Flag
+# COLUMN ismostprecise:  Most-Precise Flag
+# COLUMN phase:          Phase
+# COLUMN period:         Period [days]
+# COLUMN transitduration: Transit Duration [hours]
+# COLUMN transitdepthdb: Transit Depth - Measured [percent]
+# COLUMN transitdepthcalc: Transit Depth - Calculated [percent]
+# COLUMN ttv:            TTV flag
+# COLUMN onesigmawindowstartcalendar: 1 sigma Event Window Start Calendar UT
+# COLUMN onesigmawindowstartjd: 1 sigma Event Window Start JD UT [days]
+# COLUMN onesigmawindowstartairmass: Airmass at 1 sigma Event Window Start
+# COLUMN onesigmawindowstartaltitude: Altitude at 1 sigma Event Window Start [degrees]
+# COLUMN onesigmawindowstartazimuth: Azimuth at 1 sigma Event Window Start [degrees]
+# COLUMN ingresscalendar: Event Ingress Calendar UT
+# COLUMN ingressjd:      Event Ingress JD UT [days]
+# COLUMN ingressairmass: Event Ingress Airmass
+# COLUMN ingressaltitude: Event Ingress Altitude [degrees]
+# COLUMN ingressazimuth: Event Ingress Azimuth  [degrees]
+# COLUMN midpointcalendar: Event Midpoint Calendar UT
+# COLUMN midpointjd:     Event Midpoint JD UT [days]
+# COLUMN propmidpointunc: Propagated Midpoint Uncertainty [days]
+# COLUMN midpointairmass: Event Midpoint Airmass
+# COLUMN midpointaltitude: Event Midpoint Altitude [degrees]
+# COLUMN midpointazimuth: Event Midpoint Azimuth [degrees]
+# COLUMN egresscalendar: Event Egress Calendar UT
+# COLUMN egressjd:       Event Egress JD UT [days]
+# COLUMN egressairmass:  Event Egress Airmass
+# COLUMN egressaltitude: Event Egress Altitude [degrees]
+# COLUMN egressazimuth:  Event Egress Azimuth [degrees]
+# COLUMN onesigmawindowendcalendar: 1 sigma Event Window End Calendar UT
+# COLUMN onesigmawindowendjd: 1 sigma Event Window End JD UT [days]
+# COLUMN onesigmawindowendairmass: Airmass at 1 sigma Event Window End
+# COLUMN onesigmawindowendaltitude: Altitude at 1 sigma Event Window End [degrees]
+# COLUMN onesigmawindowendazimuth: Azimuth at 1 sigma Event Window End [degrees]
+# COLUMN targetrisecalendar: Target Rise Calendar UT
+# COLUMN targetrisejd:   Target Rise JD UT [days]
+# COLUMN targetsetcalendar: Target Set Calendar UT
+# COLUMN targetsetjd:    Target Set JD UT [days]
+# COLUMN targetobsstartcalendar: Target Observability Start Calendar UT
+# COLUMN targetobsstartjd: Target Observability Start JD UT [days]
+# COLUMN targetobsendcalendar: Target Observability End Calendar UT
+# COLUMN targetobsendjd: Target Observability End JD UT [days]
+# COLUMN sunsetcalendar: Evening Twilight End Calendar UT
+# COLUMN sunsetjd:       Evening Twilight End JD UT [days]
+# COLUMN sunrisecalendar: Morning Twilight Start Calendar UT
+# COLUMN sunrisejd:      Morning Twilight Start JD UT [days]
+# COLUMN targetobsduration: Duration of Target Observability [hours]
+# COLUMN durationbeforeevent: Duration Observable Before Event [hours]
+# COLUMN durationafterevent: Duration Observable After Event [hours]
+# COLUMN durationoutsideevent: Duration Observable Outside Event [hours]
+# COLUMN durationinsideevent: Duration Observable Inside Event [hours]
+# COLUMN fractionobservable: Event Fraction Observable
+# COLUMN fractionoutsideevent: Observable Baseline Time/Event Duration
+# COLUMN magnitude_visible: V-band (Johnson) [mag]
+# COLUMN magnitude_gaia: G-band (Gaia) [mag]
+# COLUMN magnitude_j:    J-band (2MASS) [mag]
+# COLUMN magnitude_h:    H-band (2MASS) [mag]
+# COLUMN magnitude_k:    Ks-band (2MASS) [mag]
+['rowid', 'username', 'defaultname', 'sourcetable', 'planetname', 'ra_str', 'ra', 'dec_str', 'dec', 'obsname', 'obslat', 'obslon', 'reflink', 'algorithm', 'isdefault', 'ismostprecise', 'phase', 'period', 'transitduration', 'transitdepthdb', 'transitdepthcalc', 'ttv', 'onesigmawindowstartcalendar', 'onesigmawindowstartjd', 'onesigmawindowstartairmass', 'onesigmawindowstartaltitude', 'onesigmawindowstartazimuth', 'ingresscalendar', 'ingressjd', 'ingressairmass', 'ingressaltitude', 'ingressazimuth', 'midpointcalendar', 'midpointjd', 'propmidpointunc', 'midpointairmass', 'midpointaltitude', 'midpointazimuth', 'egresscalendar', 'egressjd', 'egressairmass', 'egressaltitude', 'egressazimuth', 'onesigmawindowendcalendar', 'onesigmawindowendjd', 'onesigmawindowendairmass', 'onesigmawindowendaltitude', 'onesigmawindowendazimuth', 'targetrisecalendar', 'targetrisejd', 'targetsetcalendar', 'targetsetjd', 'targetobsstartcalendar', 'targetobsstartjd', 'targetobsendcalendar', 'targetobsendjd', 'sunsetcalendar', 'sunsetjd', 'sunrisecalendar', 'sunrisejd', 'targetobsduration', 'durationbeforeevent', 'durationafterevent', 'durationoutsideevent', 'durationinsideevent', 'fractionobservable', 'fractionoutsideevent', 'magnitude_visible', 'magnitude_gaia', 'magnitude_j', 'magnitude_h', 'magnitude_k']
+167, 0, HAT-P-14 b, Extended Planet Data, HAT-P-14 b, 17h20m27.88s, 260.116169, 38d14m31.79s, 38.242165, 0, 0, 0, <a refstr="TORRES ET AL. 2010" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010ApJ...715..458T target=ref> Torres et al. 2010 </a>, Transit Ephemeris, 0, 0, 0.000000, 4.627669, 2.188800, 0.648000, 0.695829, 0, 09/07/2018 15:04, 2458369.12795, 0, 0, 0, 09/07/2018 15:12, 2458369.13389, 0, 0, 0, 09/07/2018 16:18, 2458369.17949, 0.004245, 0, 0, 0, 09/07/2018 17:24, 2458369.22510, 0, 0, 0, 09/07/2018 17:32, 2458369.23104, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9.980000, 9.839000, 9.094000, 8.927000, 8.851000
+244, 0, HD 89345 b, Extended Planet Data, HD 89345 b, 10h18m41.06s, 154.671066, 10d07m44.50s, 10.129028, 0, 0, 0, <a refstr="YU ET AL. 2018" href=http://adsabs.harvard.edu/abs/2018arXiv180302858Y target=ref>Yu et al. 2018</a>, Transit Ephemeris, 0, 1, 0.000000, 11.814300, 5.707200, 0.147700, 0.159514, 0, 09/12/2018 22:21, 2458374.43158, 0, 0, 0, 09/12/2018 22:39, 2458374.44380, 0, 0, 0, 09/13/2018 01:30, 2458374.56270, 0.008820, 0, 0, 0, 09/13/2018 04:21, 2458374.68160, 0, 0, 0, 09/13/2018 04:39, 2458374.69382, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9.376000, 0, 8.091000, 7.766000, 7.721000
+285, 0, HD 209458 b, Extended Planet Data, HD 209458 b, 22h03m10.77s, 330.794891, 18d53m03.55s, 18.884319, 0, 0, 0, <a refstr="HENRY ET AL. 2000" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2000ApJ...529L..41H target=ref> Henry et al. 2000 </a>, Transit Ephemeris, 0, 0, 0.000000, 3.523900, 0, 1.580000, 1.733493, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 09/04/2018 09:27, 2458365.89390, 8.994600, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7.632000, 7.484000, 6.591000, 6.366000, 6.308000
+299, 0, HD 89345 b, Extended Planet Data, HD 89345 b, 10h18m41.06s, 154.671066, 10d07m44.50s, 10.129028, 0, 0, 0, <a refstr="YU ET AL. 2018" href=http://adsabs.harvard.edu/abs/2018arXiv180302858Y target=ref>Yu et al. 2018</a>, Transit Ephemeris, 1, 1, 0.000000, 11.814300, 5.733600, 0.150900, 0.161716, 0, 09/12/2018 22:23, 2458374.43300, 0, 0, 0, 09/12/2018 22:38, 2458374.44345, 0, 0, 0, 09/13/2018 01:30, 2458374.56290, 0.008850, 0, 0, 0, 09/13/2018 04:22, 2458374.68235, 0, 0, 0, 09/13/2018 04:37, 2458374.69280, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9.376000, 0, 8.091000, 7.766000, 7.721000
+570, 0, K2-232 b, Extended Planet Data, K2-232 b, 04h55m03.96s, 73.766510, 18d39m16.33s, 18.654535, 0, 0, 0, <a refstr="YU ET AL. 2018" href=http://adsabs.harvard.edu/abs/2018arXiv180302858Y target=ref>Yu et al. 2018</a>, Transit Ephemeris, 0, 1, 0.000000, 11.168459, 5.030200, 0.776400, 0.841206, 0, 09/10/2018 23:59, 2458372.49999, 0, 0, 0, 09/11/2018 00:01, 2458372.50112, 0, 0, 0, 09/11/2018 02:32, 2458372.60591, 0.000826, 0, 0, 0, 09/11/2018 05:03, 2458372.71071, 0, 0, 0, 09/11/2018 05:05, 2458372.71184, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9.899000, 9.677000, 8.739000, 8.480000, 8.434000
+784, 0, KELT-17 b, Extended Planet Data, KELT-17 b, 08h22m28.21s, 125.617523, 13d44m07.15s, 13.735319, 0, 0, 0, <a refstr="ZHOU ET AL. 2016" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2016AJ....152..136Z target=ref>Zhou et al. 2016</a>, Transit Ephemeris, 1, 1, 0.000000, 3.080172, 3.475200, 0.907000, 0.971210, 0, 09/04/2018 05:30, 2458365.72965, 0, 0, 0, 09/04/2018 05:35, 2458365.73329, 0, 0, 0, 09/04/2018 07:20, 2458365.80569, 0.002291, 0, 0, 0, 09/04/2018 09:04, 2458365.87809, 0, 0, 0, 09/04/2018 09:09, 2458365.88173, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9.286000, 9.195000, 8.745000, 8.697000, 8.646000
+786, 0, KELT-19 A b, Extended Planet Data, KELT-19 A b, 07h26m02.28s, 111.509499, 07d36m56.90s, 7.615806, 0, 0, 0, <a refstr="SIVERD ET AL. 2018" href=http://adsabs.harvard.edu/abs/2018AJ....155...35S target=ref>Siverd et al. 2018</a>, Transit Ephemeris, 1, 1, 0.000000, 4.611709, 4.394400, 1.148000, 1.238528, 1, 09/03/2018 09:44, 2458364.90571, 0, 0, 0, 09/03/2018 09:49, 2458364.90964, 0, 0, 0, 09/03/2018 12:01, 2458365.00119, 0.002429, 0, 0, 0, 09/03/2018 14:13, 2458365.09274, 0, 0, 0, 09/03/2018 14:19, 2458365.09666, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9.885000, 9.853000, 9.343000, 9.237000, 9.196000
+787, 0, KELT-2 A b, Extended Planet Data, KELT-2 A b, 06h10m39.35s, 92.663948, 30d57m25.72s, 30.957144, 0, 0, 0, <a refstr="BEATTY ET AL. 2012" href=http://adsabs.harvard.edu/abs/2012ApJ...756L..39B target=ref> Beatty et al. 2012 </a>, Transit Ephemeris, 0, 1, 0.000000, 4.113791, 5.172000, 0.521000, 0.561463, 0, 09/07/2018 05:07, 2458368.71323, 0, 0, 0, 09/07/2018 05:19, 2458368.72203, 0, 0, 0, 09/07/2018 07:54, 2458368.82978, 0.006645, 0, 0, 0, 09/07/2018 10:30, 2458368.93753, 0, 0, 0, 09/07/2018 10:42, 2458368.94632, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8.713000, 8.560000, 7.669000, 7.417000, 7.346000
+789, 0, KELT-20 b, Extended Planet Data, KELT-20 b, 19h38m38.74s, 294.661407, 31d13m09.21s, 31.219225, 0, 0, 0, <a refstr="LUND ET AL. 2017" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2017AJ....154..194L target=ref>Lund et al. 2017</a>, Transit Ephemeris, 1, 1, 0.000000, 3.474108, 3.575500, 1.309000, 1.416086, 0, 09/06/2018 14:19, 2458368.09697, 0, 0, 0, 09/06/2018 14:21, 2458368.09853, 0, 0, 0, 09/06/2018 16:09, 2458368.17302, 0.000663, 0, 0, 0, 09/06/2018 17:56, 2458368.24751, 0, 0, 0, 09/06/2018 17:58, 2458368.24907, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7.580000, 7.606000, 7.424000, 7.446000, 7.415000
+796, 0, KELT-7 b, Extended Planet Data, KELT-7 b, 05h13m10.93s, 78.295532, 33d19m05.39s, 33.318165, 0, 0, 0, <a refstr="BIERYLA ET AL. 2015" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2015AJ....150...12B target=ref>Bieryla et al. 2015</a>, Transit Ephemeris, 0, 0, 0.000000, 2.734775, 3.511200, 0.828000, 0.892757, 0, 09/03/2018 17:05, 2458365.21219, 0, 0, 0, 09/03/2018 17:11, 2458365.21620, 0, 0, 0, 09/03/2018 18:56, 2458365.28935, 0.003064, 0, 0, 0, 09/03/2018 20:42, 2458365.36250, 0, 0, 0, 09/03/2018 20:47, 2458365.36651, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8.540000, 8.427000, 7.739000, 7.580000, 7.543000
+813, 0, KELT-11 b, Extended Planet Data, KELT-11 b, 10h46m49.74s, 161.707260, -09d23m56.49s, -9.399025, 0, 0, 0, <a refstr="PEPPER ET AL. 2017" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2017AJ....153..215P target=ref>Pepper et al. 2017</a>, Transit Ephemeris, 1, 1, 0.000000, 4.736529, 7.322400, 0.269000, 0.288433, 0, 09/07/2018 12:24, 2458369.01701, 0, 0, 0, 09/07/2018 12:56, 2458369.03943, 0, 0, 0, 09/07/2018 16:36, 2458369.19198, 0.017228, 0, 0, 0, 09/07/2018 20:16, 2458369.34453, 0, 0, 0, 09/07/2018 20:48, 2458369.36696, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8.037000, 0, 6.616000, 6.251000, 6.122000
+855, 0, KELT-9 b, Extended Planet Data, KELT-9 b, 20h31m26.35s, 307.859802, 39d56m19.78s, 39.938828, 0, 0, 0, <a refstr="GAUDI ET AL. 2017" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2017Natur.546..514G target=ref>Gaudi et al. 2017</a>, Transit Ephemeris, 1, 1, 0.000000, 1.481124, 3.915800, 0.677000, 0.729962, 0, 09/03/2018 10:12, 2458364.92540, 0, 0, 0, 09/03/2018 10:14, 2458364.92696, 0, 0, 0, 09/03/2018 12:12, 2458365.00854, 0.001083, 0, 0, 0, 09/03/2018 14:09, 2458365.09012, 0, 0, 0, 09/03/2018 14:12, 2458365.09168, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7.550000, 7.614000, 7.458000, 7.492000, 7.482000
+5689, 0, WASP-38 b, Extended Planet Data, WASP-38 b, 16h15m50.36s, 243.959845, 10d01m57.24s, 10.032566, 0, 0, 0, <a refstr="BARROS ET AL. 2010" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010arXiv1010.0849B target=ref> Barros et al. 2010 </a>, Transit Ephemeris, 0, 1, 0.000000, 6.871815, 4.660800, 0.712000, 0.769259, 0, 09/04/2018 18:30, 2458366.27138, 0, 0, 0, 09/04/2018 19:03, 2458366.29381, 0, 0, 0, 09/04/2018 21:22, 2458366.39091, 0.020585, 0, 0, 0, 09/04/2018 23:42, 2458366.48801, 0, 0, 0, 09/05/2018 00:15, 2458366.51045, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9.447000, 9.175000, 8.287000, 8.106000, 7.998000
+5955, 0, WASP-69 b, Extended Planet Data, WASP-69 b, 21h00m06.19s, 315.025778, -05d05m39.85s, -5.094404, 0, 0, 0, <a refstr="ANDERSON ET AL. 2014" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2014MNRAS.445.1114A target=ref>Anderson et al. 2014</a>, Transit Ephemeris, 0, 1, 0.000000, 3.868138, 2.229600, 1.786000, 1.936070, 0, 09/06/2018 00:20, 2458367.51398, 0, 0, 0, 09/06/2018 00:23, 2458367.51651, 0, 0, 0, 09/06/2018 01:30, 2458367.56296, 0.001331, 0, 0, 0, 09/06/2018 02:37, 2458367.60941, 0, 0, 0, 09/06/2018 02:41, 2458367.61194, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9.870000, 9.398000, 8.032000, 7.543000, 7.459000
+5962, 0, WASP-74 b, Extended Planet Data, WASP-74 b, 20h18m09.32s, 304.538823, -01d04m32.43s, -1.075676, 0, 0, 0, <a refstr="HELLIER ET AL. 2015" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2015AJ....150...18H target=ref>Hellier et al. 2015</a>, Transit Ephemeris, 0, 1, 0.000000, 2.137750, 2.292000, 0.961000, 1.028733, 0, 09/05/2018 04:25, 2458366.68468, 0, 0, 0, 09/05/2018 04:28, 2458366.68655, 0, 0, 0, 09/05/2018 05:37, 2458366.73430, 0.001070, 0, 0, 0, 09/05/2018 06:46, 2458366.78205, 0, 0, 0, 09/05/2018 06:48, 2458366.78392, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9.700000, 9.520000, 8.548000, 8.286000, 8.221000
+5965, 0, WASP-76 b, Extended Planet Data, WASP-76 b, 01h46m31.86s, 26.632746, 02d42m01.94s, 2.700539, 0, 0, 0, <a refstr="WEST ET AL. 2016" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2016A&A...585A.126W target=ref>West et al. 2016</a>, Transit Ephemeris, 1, 1, 0.000000, 1.809886, 3.693600, 1.189000, 1.272188, 0, 09/03/2018 04:53, 2458364.70360, 0, 0, 0, 09/03/2018 04:56, 2458364.70599, 0, 0, 0, 09/03/2018 06:47, 2458364.78294, 0.001587, 0, 0, 0, 09/03/2018 08:38, 2458364.85989, 0, 0, 0, 09/03/2018 08:41, 2458364.86228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9.500000, 0, 8.541000, 8.331000, 8.243000
+6078, 0, WASP-136 b, Extended Planet Data, WASP-136 b, 00h01m18.18s, 0.325750, -08d55m34.77s, -8.926325, 0, 0, 0, <a refstr="LAM ET AL. 2017" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2017A&A...599A...3L target=ref>Lam et al. 2017</a>, Transit Ephemeris, 1, 1, 0.000000, 5.215357, 5.452800, 0.411000, 0.443317, 0, 09/05/2018 23:17, 2458367.47027, 0, 0, 0, 09/05/2018 23:26, 2458367.47648, 0, 0, 0, 09/06/2018 02:09, 2458367.59008, 0.002920, 0, 0, 0, 09/06/2018 04:53, 2458367.70369, 0, 0, 0, 09/06/2018 05:02, 2458367.70990, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9.980000, 0, 9.016000, 8.792000, 8.805000
+6084, 0, WASP-14 b, Extended Planet Data, WASP-14 b, 14h33m06.35s, 218.276477, 21d53m40.97s, 21.894714, 0, 0, 0, <a refstr="JOSHI ET AL. 2009" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2009MNRAS.392.1532J target=ref> Joshi et al. 2009 </a>, Transit Ephemeris, 0, 0, 0.000000, 2.243752, 3.060000, 1.020000, 1.087169, 0, 09/03/2018 21:01, 2458365.37591, 0, 0, 0, 09/03/2018 21:31, 2458365.39678, 0, 0, 0, 09/03/2018 23:03, 2458365.46053, 0.017920, 0, 0, 0, 09/04/2018 00:34, 2458365.52428, 0, 0, 0, 09/04/2018 01:05, 2458365.54515, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9.750000, 9.633000, 8.869000, 8.650000, 8.621000
+6276, 0, WASP-33 b, Extended Planet Data, WASP-33 b, 02h26m51.06s, 36.712746, 37d33m01.74s, 37.550484, 0, 0, 0, <a refstr="COLLIER CAMERON ET AL. 2010" href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010MNRAS.407..507C target=ref> Collier Cameron et al. 2010 </a>, Transit Ephemeris, 0, 0, 0.000000, 1.219867, 0, 1.372000, 1.228739, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 09/04/2018 03:57, 2458365.66517, 0.004394, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8.142000, 8.074000, 7.581000, 7.516000, 7.468000
