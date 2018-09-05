@@ -43,12 +43,17 @@ if __name__ == "__main__":
     # save the title and pick index of key words
     title = TTV_table[0]
     print title
+    index_defaultname = title.index('defaultname')
+    print index_defaultname
     index_DEC = title.index('dec')
     index_RA = title.index('ra')
     index_Vmag = title.index('magnitude_visible')
     index_period = title.index('period')
     index_transitduration = title.index('transitduration')
+    index_midpointcalendar = title.index('midpointcalendar')
+    index_midpointjd = title.index('midpointjd')
     index_depthdb = title.index('transitdepthdb')
+    
     # Load data from the table and replace all '' with 0
     TTV_table = np.array(TTV_table)
     TTV_data = TTV_table[1:]
@@ -60,8 +65,29 @@ if __name__ == "__main__":
     selected_TTV_data = TTV_data[(TTV_dec > -20) & (TTV_dec < 40) & (TTV_Vmag < 10) & (TTV_Vmag != 0) & (TTV_depthdb > 0.1)]
     # print position, periodicity, transitduration, transitdepthdb
     for source in selected_TTV_data:
-        print "RA: {0}, DEC: {1}, {2} days, {3} hours, Vmag = {4} dim {5} percent".format(source[index_RA], source[index_DEC], source[index_period], source[index_transitduration], source[index_Vmag], source[index_depthdb])
+        print "RA: {0}, DEC: {1}, Period: {2} days, Duration: {3} hours, Vmag: {4}, dimmed by {5} percent".format(source[index_RA], source[index_DEC], source[index_period], source[index_transitduration], source[index_Vmag], source[index_depthdb])
     # Save the select data as result.
+    RA_order = np.argsort(np.array(selected_TTV_data[:,index_RA], dtype = float))
+    defaultname_array = ['['+ x +']' for x in selected_TTV_data[:, index_defaultname]]
+    reduce_selected_TTV_data = np.array([defaultname_array, 
+                                        selected_TTV_data[:, index_RA], 
+                                        selected_TTV_data[:, index_DEC]])
+    reduce_selected_TTV_data = reduce_selected_TTV_data.transpose()
+    reduce_selected_TTV_data = reduce_selected_TTV_data[RA_order]
+    np.savetxt('reduced_selected_TTV_targets.txt', reduce_selected_TTV_data, fmt = '%s')
+    TTV_data_for_schedule = np.array([defaultname_array, 
+                                    selected_TTV_data[:, index_RA], 
+                                    selected_TTV_data[:, index_DEC], 
+                                    selected_TTV_data[:, index_midpointcalendar], 
+                                    selected_TTV_data[:, index_midpointjd],
+                                    selected_TTV_data[:, index_period], 
+                                    selected_TTV_data[:, index_transitduration],
+                                    selected_TTV_data[:, index_Vmag],
+                                    selected_TTV_data[:, index_depthdb] ])
+    TTV_data_for_schedule = TTV_data_for_schedule.transpose()
+    TTV_data_for_schedule = TTV_data_for_schedule[RA_order]
+    np.savetxt('TTV_targets_for_schedule.txt', TTV_data_for_schedule, fmt = '%s')
+    selected_TTV_data = selected_TTV_data[RA_order]
     selected_TTV_data = selected_TTV_data.tolist()
     TTV_comment.append([title])
     for source in selected_TTV_data:
